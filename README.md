@@ -165,11 +165,6 @@ Examples:
 - Generation Diversity
   - generate/generation_diversity.py
 
-### Preprocessing
-
-- generate/preprocess_data/json_to_pcap.py
-- generate/preprocess_data/pcap_ip_filter.py
-
 
 ## License Notice
 
