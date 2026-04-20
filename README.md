@@ -1,4 +1,4 @@
-# NetScope: A Measurement Benchmark for Security-Oriented Evaluation of Pre-trained Network Traffic Models
+# NetScope: A Benchmark for Pre-trained Network Traffic Models
 
 NetScope is a research-oriented benchmark toolkit for network traffic analysis.
 It provides a unified workflow for two major directions:
