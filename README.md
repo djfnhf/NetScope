@@ -1,11 +1,10 @@
 # NetScope: A Measurement Benchmark for Security-Oriented Evaluation of Pre-trained Network Traffic Models
 
 NetScope is a research-oriented benchmark toolkit for network traffic analysis.
-It provides a unified workflow for three major directions:
+It provides a unified workflow for two major directions:
 
 - Traffic Classification
 - Traffic Generation
-- Data Preprocessing
 
 The project keeps each experimental script independent, while exposing a single launcher entry point for task discovery, execution, and validation.
 
@@ -20,7 +19,6 @@ The project keeps each experimental script independent, while exposing a single 
 
 - classify/: classification benchmarks and analysis tools
 - generate/: generation quality and utility evaluation tools
-- generate/preprocess_data/: traffic conversion and filtering tools
 - netscope/tasks.py: centralized task registry
 - run_netscope.py: unified launcher
 
