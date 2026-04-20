@@ -1,0 +1,14 @@
+# Core scientific stack
+numpy>=1.23
+pandas>=1.5
+scipy>=1.9
+matplotlib>=3.6
+
+# Data and packet processing
+tqdm>=4.65
+scapy>=2.5
+pillow>=9.5
+
+# Deep learning (required by explain_* and inference benchmark scripts)
+torch>=2.1
+torchvision>=0.16
