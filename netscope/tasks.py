@@ -100,15 +100,15 @@ TASKS: List[Task] = [
         summary="Compute entropy, coverage, and novelty diversity metrics.",
     ),
     Task(
-        task_id="prep.json_to_pcap",
+        task_id="gen.preprocess.json_to_pcap",
         paper_dimension="Preprocessing",
-        script_relpath="preprocess_data/json_to_pcap.py",
+        script_relpath="generate/preprocess_data/json_to_pcap.py",
         summary="Convert generated JSON traffic records to PCAP format.",
     ),
     Task(
-        task_id="prep.ip_filter",
+        task_id="gen.preprocess.ip_filter",
         paper_dimension="Preprocessing",
-        script_relpath="preprocess_data/pcap_ip_filter.py",
+        script_relpath="generate/preprocess_data/pcap_ip_filter.py",
         summary="Filter PCAP by source/destination IP conditions.",
     ),
 ]

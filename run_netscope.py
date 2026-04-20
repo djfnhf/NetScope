@@ -137,7 +137,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     run.add_argument("script_args", nargs=argparse.REMAINDER, help="Arguments passed to the target script.")
 
     run_group = sub.add_parser("run-group", help="Run tasks whose id starts with a prefix.")
-    run_group.add_argument("prefix", help="Prefix such as cls., gen., prep., cls.cost.")
+    run_group.add_argument("prefix", help="Prefix such as cls., gen., cls.cost., gen.preprocess.")
     run_group.add_argument("--continue-on-error", action="store_true", help="Continue even if one task fails.")
     run_group.add_argument("script_args", nargs=argparse.REMAINDER, help="Same extra args for each task.")
 

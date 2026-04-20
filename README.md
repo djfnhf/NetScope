@@ -20,7 +20,7 @@ The project keeps each experimental script independent, while exposing a single 
 
 - classify/: classification benchmarks and analysis tools
 - generate/: generation quality and utility evaluation tools
-- preprocess_data/: traffic conversion and filtering tools
+- generate/preprocess_data/: traffic conversion and filtering tools
 - netscope/tasks.py: centralized task registry
 - run_netscope.py: unified launcher
 
@@ -128,14 +128,14 @@ python run_netscope.py doctor --prefix gen.
 Task IDs are semantic aliases:
 
 - cls.*: classification evaluations
-- gen.*: generation evaluations
-- prep.*: preprocessing utilities
+- gen.*: generation and preprocessing evaluations/utilities
 
 Examples:
 
 - cls.data_efficiency.subset_builder
 - cls.cost.uer_inference_benchmark
 - gen.correctness.protocol_compliance
+- gen.preprocess.json_to_pcap
 
 ## Dimension Mapping
 
@@ -169,8 +169,8 @@ Examples:
 
 ### Preprocessing
 
-- preprocess_data/json_to_pcap.py
-- preprocess_data/pcap_ip_filter.py
+- generate/preprocess_data/json_to_pcap.py
+- generate/preprocess_data/pcap_ip_filter.py
 
 ## Reproducibility Workflow
 
