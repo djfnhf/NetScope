@@ -1,4 +1,4 @@
-# NetScope
+# NetScope: A Measurement Benchmark for Security-Oriented Evaluation of Pre-trained Network Traffic Models
 
 NetScope is a research-oriented benchmark toolkit for network traffic analysis.
 It provides a unified workflow for three major directions:
@@ -172,10 +172,8 @@ Examples:
 - generate/preprocess_data/json_to_pcap.py
 - generate/preprocess_data/pcap_ip_filter.py
 
-## Reproducibility Workflow
 
-1. Prepare dataset and runtime environment.
-2. Use list/search to find tasks for a target dimension.
-3. Run tasks with fixed random seeds and recorded command lines.
-4. Save logs, metrics, and artifacts in versioned experiment folders.
-5. Report results with the same dimension taxonomy used in this repository.
+## License Notice
+
+- The original code in this project is licensed under the **MIT License**.
+- This project includes the third-party tool **SplitCap**, developed by NETRESEC/Erik Hjelmvik, which is provided under **CC BY-ND 4.0**: https://www.netresec.com/?page=SplitCap
