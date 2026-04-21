@@ -8,13 +8,6 @@ It provides a unified workflow for two major directions:
 
 The project keeps each experimental script independent, while exposing a single launcher entry point for task discovery, execution, and validation.
 
-## Why NetScope
-
-- One command-line entry for all benchmark tasks
-- Dimension-oriented task naming, aligned with paper sections
-- Non-destructive organization: existing scripts remain where they are
-- Easy to extend with new tasks by editing a single registry file
-
 ## Project Layout
 
 - classify/: classification benchmarks and analysis tools
@@ -58,6 +51,12 @@ The flow/packet dataset build pipeline under classify/build uses SplitCap via mo
 - Install mono runtime
 - Prepare SplitCap.exe
 - Configure SPLITCAP_EXE path in classify/build/config.py
+
+## Experimental Datasets
+
+The dataset used in our experiments can be downloaded here:
+
+- [datasets](https://drive.google.com/file/d/1rxFME7uZl9Pu3s8wsd8JcNX_4jYa-eBF/view?usp=sharing)
 
 ## Quick Start
 
